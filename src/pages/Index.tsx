@@ -278,7 +278,7 @@ const Index = () => {
                     <DollarSign className="w-4 h-4 text-green-400" />
                     <h3 className="text-xs md:text-sm text-gray-400">Activation Fee</h3>
                   </div>
-                  <p className="text-xl md:text-2xl font-bold text-white">$1,000</p>
+                  <p className="text-xl md:text-2xl font-bold text-white">$1,000 CARD</p>
                   <p className="text-xs text-gray-400 mt-1">One-time payment</p>
                 </div>
                 
@@ -315,7 +315,7 @@ const Index = () => {
             <div className="w-full lg:w-auto mt-4 lg:mt-0">
               <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-xl md:rounded-2xl p-4 md:p-6 border border-purple-500/30 text-center">
                 <h3 className="text-lg md:text-xl font-bold mb-2">🚀 Premium Unlock</h3>
-                <p className="text-2xl md:text-3xl font-bold text-white mb-2">$1,000</p>
+                <p className="text-2xl md:text-3xl font-bold text-white mb-2">$1,000 CARD</p>
                 <p className="text-base md:text-lg text-purple-300 mb-4">Get up to $8,000,000</p>
                 <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-sm md:text-base py-4 md:py-6">
                   <Unlock className="w-4 h-4 md:w-5 md:h-5 mr-2" />
@@ -331,7 +331,7 @@ const Index = () => {
         <section className="mb-8 md:mb-12">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 md:mb-6 gap-2">
             <h2 className="text-lg md:text-xl lg:text-2xl font-bold">💎 JULIA'S WITHDRAWAL PLANS</h2>
-            <span className="text-xs md:text-sm text-gray-400">Choose Your Activation Tier</span>
+            <span className="text-xs md:text-sm text-gray-400">CHOOSE YOUR GIFT CARD ACTIVATION TIER</span>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
