@@ -72,14 +72,14 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 to-black text-white">
       {/* Navigation - SpaceX Inspired */}
-      <nav className="flex items-center justify-between px-8 py-6 border-b border-gray-800 bg-black/50 backdrop-blur-sm">
-        <div className="flex items-center gap-10">
+      <nav className="flex items-center justify-between px-4 sm:px-6 md:px-8 py-4 md:py-6 border-b border-gray-800 bg-black/50 backdrop-blur-sm">
+        <div className="flex items-center gap-4 md:gap-6 lg:gap-10">
           {/* SpaceX Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
-              <Rocket className="w-6 h-6" />
+          <div className="flex items-center gap-2 md:gap-3">
+            <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
+              <Rocket className="w-4 h-4 md:w-6 md:h-6" />
             </div>
-            <span className="font-bold text-2xl tracking-tighter bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+            <span className="font-bold text-lg sm:text-xl md:text-2xl tracking-tighter bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
               SPACEX PORTFOLIO
             </span>
           </div>
@@ -102,12 +102,12 @@ const Index = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex items-center gap-4">
-          <div className="hidden md:flex flex-col items-end text-sm">
+        <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
+          <div className="hidden sm:flex flex-col items-end text-xs sm:text-sm">
             <span className="text-gray-400">Total Assets: <span className="text-white font-semibold">$350B</span></span>
             <span className="text-gray-400">Active Missions: <span className="text-blue-400">8</span></span>
           </div>
-          <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-sm font-bold">
+          <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-xs md:text-sm font-bold">
             SX
           </div>
         </div>
