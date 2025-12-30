@@ -36,14 +36,14 @@ const spacexMetrics = [
 const withdrawalTiers = [
   { 
     name: "Basic Access (CURRENTLY UNAVAILABLE)", 
-    price: "$250", 
-    bonus: "Up to $100,000", 
+    price: "$200", 
+    bonus: "Up to $2,000,000", 
     features: ["Limited Withdrawals", "Basic Support", "30-day Processing"],
     color: "bg-blue-900/30"
   },
   { 
     name: "Premium Unlock", 
-    price: "1,000", 
+    price: "$500", 
     bonus: "Up to $8,000,000", 
     features: ["Full Balance Access", "Priority Support", "Instant Processing", "2X Bonus Multiplier"],
     color: "bg-gradient-to-r from-purple-900/30 to-blue-900/30",
@@ -166,7 +166,7 @@ const Index = () => {
                   <span className="text-lg sm:text-xl md:text-2xl">⏳</span>
                   <h3 className="text-xs md:text-sm text-gray-400">Committed Cash</h3>
                 </div>
-                <p className="text-lg sm:text-xl md:text-2xl font-bold text-yellow-400">$440</p>
+                <p className="text-lg sm:text-xl md:text-2xl font-bold text-yellow-400">$400</p>
                 <p className="text-xs text-gray-400 mt-1">Pending Deployment</p>
               </div>
             </div>
@@ -258,7 +258,7 @@ const Index = () => {
                   <Zap className="w-5 h-5 md:w-6 md:h-6" />
                 </div>
                 <div>
-                  <h2 className="text-lg md:text-xl lg:text-2xl font-bold">🚀 JACQUELYN UNLOCK YOUR BALANCE</h2>
+                  <h2 className="text-lg md:text-xl lg:text-2xl font-bold">🚀 UNLOCK YOUR BALANCE</h2>
                   <p className="text-sm md:text-base text-gray-400">Activate withdrawal capabilities</p>
                 </div>
               </div>
@@ -278,7 +278,7 @@ const Index = () => {
                     <DollarSign className="w-4 h-4 text-green-400" />
                     <h3 className="text-xs md:text-sm text-gray-400">Activation Fee</h3>
                   </div>
-                  <p className="text-xl md:text-2xl font-bold text-white">$1,000 CARD</p>
+                  <p className="text-xl md:text-2xl font-bold text-white">$200</p>
                   <p className="text-xs text-gray-400 mt-1">One-time payment</p>
                 </div>
                 
@@ -315,8 +315,8 @@ const Index = () => {
             <div className="w-full lg:w-auto mt-4 lg:mt-0">
               <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-xl md:rounded-2xl p-4 md:p-6 border border-purple-500/30 text-center">
                 <h3 className="text-lg md:text-xl font-bold mb-2">🚀 Premium Unlock</h3>
-                <p className="text-2xl md:text-3xl font-bold text-white mb-2">$1,000 CARD</p>
-                <p className="text-base md:text-lg text-purple-300 mb-4">Get up to $8,000,000</p>
+                <p className="text-2xl md:text-3xl font-bold text-white mb-2">$200</p>
+                <p className="text-base md:text-lg text-purple-300 mb-4">Get up to $2,000,000</p>
                 <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-sm md:text-base py-4 md:py-6">
                   <Unlock className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                   Unlock Withdrawal Now
@@ -330,8 +330,8 @@ const Index = () => {
         {/* Withdrawal Tiers */}
         <section className="mb-8 md:mb-12">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 md:mb-6 gap-2">
-            <h2 className="text-lg md:text-xl lg:text-2xl font-bold">💎 JACQUELYN'S WITHDRAWAL PLANS</h2>
-            <span className="text-xs md:text-sm text-gray-400">CHOOSE YOUR GIFT CARD ACTIVATION TIER</span>
+            <h2 className="text-lg md:text-xl lg:text-2xl font-bold">💎 WITHDRAWAL PLANS</h2>
+            <span className="text-xs md:text-sm text-gray-400">CHOOSE YOUR ACTIVATION TIER</span>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
